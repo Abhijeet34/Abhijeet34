@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Abhijeet34
-- 👀 I’m interested in ...Tech Savvy Codes/Repos/Vlogs/**<pretty much everything on the platter>
+- 👀 I’m interested in ...Tech Savvy Codes/Repos/Blogs/**<pretty much everything on the platter>
 - 🌱 I’m currently learning ...Linux/Networking
 - 💞️ I’m looking to collaborate on ...Tech Nerd Projects
 - 📫 How to reach me ...
