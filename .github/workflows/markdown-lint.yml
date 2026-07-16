@@ -1,0 +1,31 @@
+name: Lint README
+
+# Keeps the profile README clean: fails the check on real Markdown problems
+# (broken links syntax, bad headings) while tolerating the inline HTML and long
+# lines a rich profile README needs. Config lives in .markdownlint.json.
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - ".markdownlint.json"
+      - ".github/workflows/markdown-lint.yml"
+  pull_request:
+    paths:
+      - "**/*.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  markdownlint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v19
+        with:
+          globs: "**/*.md"
