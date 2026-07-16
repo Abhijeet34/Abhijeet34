@@ -59,12 +59,12 @@ Verification matters more than confidence.
 
 ---
 
+<!-- github-metrics.svg is generated and committed by .github/workflows/metrics.yml -->
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Abhijeet34&show_icons=true&hide_border=true&theme=tokyonight&count_private=true&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Abhijeet34&hide_border=true&theme=tokyonight" alt="GitHub streak" />
+<img src="./github-metrics.svg" alt="GitHub metrics" />
 
-<img height="155" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Abhijeet34&layout=compact&hide_border=true&theme=tokyonight&langs_count=8" alt="Top languages" />
+<img height="150" src="https://github-readme-streak-stats.herokuapp.com/?user=Abhijeet34&hide_border=true&theme=tokyonight" alt="GitHub streak" />
 
 </div>
 
