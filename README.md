@@ -5,13 +5,20 @@
 I build local-first tools and the agent harnesses that develop them.
 Around six years in software engineering, currently taking an M.Tech in Software Engineering. Bangalore, India.
 
+```
+   brief ──▶ isolated worktree ──▶ gate ──▶ pull request
+                    ▲                │
+                    └────── fix ◀────┘
+                    every step evidenced
+```
+
 ## Now
 
 **Local-first speech.**
 A desktop dictation tool in Rust and Tauri running Whisper on-device, so audio never leaves the machine.
 
 **Agent harnesses.**
-Orchestration where every worker gets an isolated worktree, a written brief, and a gate that can prove what actually ran.
+The loop above. Every worker gets an isolated worktree, a written brief, and a gate that can prove what actually ran.
 
 **Pipelines that fail honestly.**
 A check that has only ever been observed passing has not been tested. Most of the interesting work is making failure visible.
