@@ -2,9 +2,6 @@
 
 > Verification matters more than confidence.
 
-I build local-first tools and the agent harnesses that develop them.
-Around six years in software engineering, currently taking an M.Tech in Software Engineering. Bangalore, India.
-
 ```
    brief ──▶ isolated worktree ──▶ gate ──▶ pull request
                     ▲                │
@@ -34,5 +31,7 @@ Ship the smallest change that fully solves the problem.
 Read the output before believing the exit code.
 
 ---
+
+Six years in software engineering. M.Tech in Software Engineering, in progress.
 
 abhihalder343@gmail.com
