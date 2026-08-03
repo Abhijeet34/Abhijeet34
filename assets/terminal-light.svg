@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700" role="img" aria-label="abhijeet@github — live session. Abhijeet Halder, software engineer. local-first, agent-infra, reliability. rust, tauri, typescript, react, next.js, python, shell. abhihalder343@gmail.com">
+  <style>
+    .t { transform-box: fill-box; transform-origin: right center; }
+    .t1 { animation: type 0.7s 0.2s steps(7, end) both; }
+    .t2 { animation: type 0.8s 1.7s steps(14, end) both; }
+    .t3 { animation: type 0.8s 3.5s steps(16, end) both; }
+    .t4 { animation: type 0.8s 4.8s steps(15, end) both; }
+    @keyframes type { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+    .show { animation: show 0.05s linear both; }
+    .s1 { animation-delay: 1.05s; } .s2 { animation-delay: 1.25s; }
+    .s3 { animation-delay: 2.65s; } .s4 { animation-delay: 2.85s; } .s5 { animation-delay: 3.05s; }
+    .s6 { animation-delay: 4.45s; }
+    .s7 { animation-delay: 5.75s; }
+    @keyframes show { from { opacity: 0; } to { opacity: 1; } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    .p2 { animation-delay: -0.8s; } .p3 { animation-delay: -1.6s; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.45; } }
+    .spin { transform-box: fill-box; transform-origin: center; animation: spin 1.4s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+  <defs>
+    <filter id="sh" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#4c4f69" flood-opacity="0.28"/>
+      <feDropShadow dx="0" dy="22" stdDeviation="22" flood-color="#4c4f69" flood-opacity="0.16"/>
+    </filter>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0.7" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.4"/>
+      <stop offset="0.45" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="20" y="16" width="1160" height="664" rx="16"/></clipPath>
+  </defs>
+  <g filter="url(#sh)"><rect x="20" y="16" width="1160" height="664" rx="16" fill="#eff1f5"/></g>
+  <g clip-path="url(#card)">
+    <rect x="20" y="16" width="1160" height="56" fill="#e6e9ef" fill-opacity="0.85"/>
+    <rect x="20" y="624" width="1160" height="56" fill="#e6e9ef" fill-opacity="0.85"/>
+    <rect x="20" y="16" width="1160" height="664" fill="url(#sheen)"/>
+  </g>
+  <rect x="20.5" y="16.5" width="1159" height="663" rx="16" fill="none" stroke="#c6cad6"/>
+  <path d="M20.5 72.5 H1179.5 M20.5 623.5 H1179.5" stroke="#dce0e8"/>
+  <circle cx="50" cy="44" r="5.5" fill="#d20f39"/><circle cx="70" cy="44" r="5.5" fill="#df8e1d"/><circle cx="90" cy="44" r="5.5" fill="#40a02b"/>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="600" y="48" font-size="12.5" letter-spacing="1" fill="#6c6f85" text-anchor="middle">abhijeet@github — live session</text>
+    <circle class="spin" cx="1036" cy="43" r="6" fill="none" stroke="#40a02b" stroke-width="1.5" stroke-dasharray="21 17"/>
+    <text x="1150" y="48" font-size="11.5" fill="#8c8fa1" text-anchor="end">zsh · 120×32</text>
+    <text x="64" y="128" font-size="14.5"><tspan fill="#40a02b">❯</tspan> <tspan fill="#4c4f69">whoami</tspan></text>
+    <rect class="t t1" transform="scale(0 1)" x="60" y="112" width="100" height="24" fill="#eff1f5"/>
+    <text class="show s1" x="86" y="178" font-size="38" font-weight="700" letter-spacing="-0.5" fill="#4c4f69">Abhijeet Halder</text>
+    <text class="show s2" x="88" y="210" font-size="14.5" fill="#6c6f85">software engineer · code is cheap now, <tspan fill="#40a02b" font-weight="600">proof isn't</tspan></text>
+    <text x="64" y="272" font-size="14.5"><tspan fill="#40a02b">❯</tspan> <tspan fill="#4c4f69">focus</tspan> <tspan fill="#8c8fa1">--areas</tspan></text>
+    <rect class="t t2" transform="scale(0 1)" x="60" y="256" width="154" height="24" fill="#eff1f5"/>
+    <g class="show s3" font-size="14.5">
+      <text x="88" y="308" fill="#179299" font-weight="600">local-first</text>
+      <text x="360" y="308" fill="#6c6f85">speech + tools that never leave the machine</text>
+      <rect x="1028" y="291" width="104" height="26" rx="13" fill="#179299" fill-opacity="0.12" stroke="#179299" stroke-opacity="0.4"/>
+      <circle class="pulse" cx="1046" cy="304" r="3.5" fill="#179299"/>
+      <text x="1058" y="308.5" font-size="12" fill="#179299">on-device</text>
+    </g>
+    <g class="show s4" font-size="14.5">
+      <text x="88" y="344" fill="#40a02b" font-weight="600">agent-infra</text>
+      <text x="360" y="344" fill="#6c6f85">isolated worktrees · gates that prove what ran</text>
+      <rect x="1028" y="327" width="104" height="26" rx="13" fill="#40a02b" fill-opacity="0.12" stroke="#40a02b" stroke-opacity="0.4"/>
+      <circle class="pulse p2" cx="1046" cy="340" r="3.5" fill="#40a02b"/>
+      <text x="1058" y="344.5" font-size="12" fill="#40a02b">evidenced</text>
+    </g>
+    <g class="show s5" font-size="14.5">
+      <text x="88" y="380" fill="#fe640b" font-weight="600">reliability</text>
+      <text x="360" y="380" fill="#6c6f85">pipelines that fail honestly</text>
+      <rect x="1028" y="363" width="104" height="26" rx="13" fill="#fe640b" fill-opacity="0.12" stroke="#fe640b" stroke-opacity="0.4"/>
+      <circle class="pulse p3" cx="1046" cy="376" r="3.5" fill="#fe640b"/>
+      <text x="1058" y="380.5" font-size="12" fill="#fe640b">honest</text>
+    </g>
+    <text x="64" y="444" font-size="14.5"><tspan fill="#40a02b">❯</tspan> <tspan fill="#4c4f69">stack</tspan> <tspan fill="#8c8fa1">--primary</tspan></text>
+    <rect class="t t3" transform="scale(0 1)" x="60" y="428" width="170" height="24" fill="#eff1f5"/>
+    <g class="show s6" font-size="13" fill="#5c5f77">
+      <rect x="88" y="464" width="75" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="106" cy="479" r="4" fill="#dea584"/><text x="118" y="484">rust</text>
+      <rect x="175" y="464" width="83" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="193" cy="479" r="4" fill="#d99c14"/><text x="205" y="484">tauri</text>
+      <rect x="270" y="464" width="122" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="288" cy="479" r="4" fill="#3178c6"/><text x="300" y="484">typescript</text>
+      <rect x="404" y="464" width="83" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="422" cy="479" r="4" fill="#31a8c9"/><text x="434" y="484">react</text>
+      <rect x="499" y="464" width="99" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="517" cy="479" r="4" fill="#6c6f85"/><text x="529" y="484">next.js</text>
+      <rect x="610" y="464" width="91" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="628" cy="479" r="4" fill="#3572a5"/><text x="640" y="484">python</text>
+      <rect x="713" y="464" width="83" height="30" rx="15" fill="#dce0e8" fill-opacity="0.5" stroke="#ccd0da"/><circle cx="731" cy="479" r="4" fill="#5a9e34"/><text x="743" y="484">shell</text>
+    </g>
+    <text x="64" y="558" font-size="14.5"><tspan fill="#40a02b">❯</tspan> <tspan fill="#4c4f69">reach</tspan> <tspan fill="#8c8fa1">--direct</tspan></text>
+    <rect class="t t4" transform="scale(0 1)" x="60" y="542" width="160" height="24" fill="#eff1f5"/>
+    <text class="show s7" x="88" y="594" font-size="14.5" fill="#179299">abhihalder343@gmail.com</text>
+    <circle cx="56" cy="652" r="3.5" fill="#40a02b"/>
+    <text x="68" y="656" font-size="11.5" letter-spacing="1.5" fill="#6c6f85">gate · passing</text>
+    <g opacity="0.8">
+      <rect x="566" y="646" width="10" height="10" fill="#d20f39"/>
+      <rect x="578" y="646" width="10" height="10" fill="#df8e1d"/>
+      <rect x="590" y="646" width="10" height="10" fill="#40a02b"/>
+      <rect x="602" y="646" width="10" height="10" fill="#179299"/>
+      <rect x="614" y="646" width="10" height="10" fill="#1e66f5"/>
+      <rect x="626" y="646" width="10" height="10" fill="#8839ef"/>
+    </g>
+    <text x="1144" y="656" font-size="11.5" letter-spacing="1.5" fill="#8c8fa1" text-anchor="end">every step evidenced</text>
+  </g>
+</svg>
